@@ -1,6 +1,6 @@
 import React from "react";
 import {Input, List} from "antd";
-
+import produce from "immer"
 function TodoItem ({todo}) {
     return(<li>{todo}</li>)
 }
@@ -19,6 +19,14 @@ class TodoList extends React.Component{
 
     onkeyDown = (e) =>{
         if (e.keyCode===13) {
+            // this.setState(
+            // produce(this.state, draft =>{
+            //     if (draft.current.trim().length >0) {
+            //         draft.current='';
+            //         draft.todoList.push(current);
+            //     }
+            // })
+            // );
             const {todoList, current}=this.state;
             if (current.trim().length>0){
                 this.setState({
