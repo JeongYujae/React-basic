@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TodoList from 'TodoList';
-
+import App2 from './App2'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TodoList />
+    <App2/>
     {/* 무슨 js 파일 보여줄지 결정해준다 */}
   </React.StrictMode>
 );
