@@ -5,10 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import TodoList from 'TodoList';
 import App2 from './App2'
+import App3 from 'App3';
+import Position from 'prac'
+import EpisodeList from 'EpisodeList';
+import Clock from 'Clock';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App2/>
+    <Clock/>
     {/* 무슨 js 파일 보여줄지 결정해준다 */}
   </React.StrictMode>
 );
