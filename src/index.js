@@ -9,12 +9,12 @@ import App3 from 'App3';
 import Position from 'prac'
 import EpisodeList from 'EpisodeList';
 import Clock from 'Clock';
+import App4 from 'App4';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Clock/>
-    {/* 무슨 js 파일 보여줄지 결정해준다 */}
+    <App4/>
   </React.StrictMode>
 );
 
