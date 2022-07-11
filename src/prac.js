@@ -19,6 +19,9 @@ function Position ({name,position,age}){
     );
 }
 
+
+
+
 function App1 (){
     return(
         <Position name={'Jeong'} position={'CM'} age={22}/>
